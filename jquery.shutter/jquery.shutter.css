@@ -1,0 +1,54 @@
+.shutterAnimationHolder .film canvas{
+    display: block;
+    margin: 0 auto;
+}
+
+.shutterAnimationHolder .film{
+    position:absolute;
+    left:50%;
+    top:0;
+}
+
+.shutterAnimationHolder{
+    position:absolute;
+    overflow:hidden;
+    top:0;
+    left:0;
+    z-index:1000;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+#top{
+	background:url('../img/top.jpg') repeat-x;
+	height:31px;
+}
+
+#container{
+	width:640px;
+	height:400px;
+	margin:0 auto;
+	border:5px solid #fff;
+	overflow:hidden;
+
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#container ul{
+	list-style:none;
+}
+
+#page{
+	width: 660px;
+	margin:0 auto;
+	border-top:1px solid transparent;
+}
+
+a:hover{
+	text-decoration:underline;
+}
