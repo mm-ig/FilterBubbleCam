@@ -22,11 +22,6 @@
 	padding:0;
 }
 
-#top{
-	background:url('../img/top.jpg') repeat-x;
-	height:31px;
-}
-
 #container{
 	width:640px;
 	height:400px;
