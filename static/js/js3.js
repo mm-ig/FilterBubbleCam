@@ -8,7 +8,7 @@ $(document).ready(function(){
     // callback functions.
 
     container.tzShutter({
-        imgSrc: './../jquery.shutter/shutter.png',
+        imgSrc: '../jquery.shutter/shutter.png',
         closeCallback: function(){
 
             // Cycling the visibility of the li items to
