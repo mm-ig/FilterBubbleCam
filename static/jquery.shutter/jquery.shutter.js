@@ -14,7 +14,7 @@
             closeCallback:function(){},
             loadCompleteCallback:function(){},
             hideWhenOpened:true,
-            imgSrc: 'https://github.com/mm-ig/FilterBubbleCam/blob/master/static/jquery.shutter/shutter.png'
+            imgSrc: './shutter.png'
         },options);
 
         var element = this;
