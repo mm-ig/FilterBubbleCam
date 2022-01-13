@@ -8,7 +8,7 @@ $(document).ready(function(){
     // callback functions.
 
     container.tzShutter({
-        imgSrc: 'FilterBubbleCam/static/jquery.shutter/shutter.png',
+        imgSrc: 'https://github.com/mm-ig/FilterBubbleCam/blob/master/static/jquery.shutter/shutter.png',
         closeCallback: function(){
 
             // Cycling the visibility of the li items to
