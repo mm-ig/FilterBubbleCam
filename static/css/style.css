@@ -38,6 +38,11 @@ html {
   padding-top: 1rem;
 }
 
+#endimg{
+  width: 50rem;
+  text-align: center;
+}
+
 .home{
   min-height: 100vh;
   position: relative;
@@ -129,8 +134,8 @@ li {
 }
 
 ul {
-  margin-left: 30px;
-  padding-bottom: 20px;
+  font-size: 1rem;
+  margin-left: 40px;
 }
 
 div p{
@@ -142,6 +147,12 @@ div p{
   font-size: 1.3rem;
   padding-left: 4.5rem;
   padding-bottom: 2rem;
+}
+
+#persona {
+  font-size: 1.5rem;
+  padding-left: 4rem;
+  padding-bottom: 2px;
 }
 
 iframe {
