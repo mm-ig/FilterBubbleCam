@@ -7,3 +7,6 @@ $('.slider').slick({
     nextArrow: '<div class="slick-next"></div>',//矢印部分NextのHTMLを変更
     dots: true,//下部ドットナビゲーションの表示
 });
+
+// optionはここを見て追加
+// https://qiita.com/katsunory/items/25b385aae0f07b41e611
