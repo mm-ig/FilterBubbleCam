@@ -58,6 +58,7 @@
 }
 
 .slick-dots button {
+    -webkit-appearance: none;
     color: transparent;
     outline: none;
     width:1.5rem;/*ドットボタンのサイズ*/

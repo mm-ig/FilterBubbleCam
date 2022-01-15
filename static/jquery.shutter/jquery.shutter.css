@@ -22,7 +22,7 @@
 	padding:0;
 }
 
-#container{
+#container1, #container2, #container3{
 	width:640px;
 	height:400px;
 	margin:2rem auto;
@@ -34,7 +34,7 @@
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-#container ul{
+#container1 ul, #container2 ul, #container3 ul{
 	list-style:none;
 }
 
