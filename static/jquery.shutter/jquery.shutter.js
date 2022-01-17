@@ -62,6 +62,7 @@
 				// The film div holds 15 canvas elements (or frames).
 
 				var film = $('<div class="film">',{
+					className: 'film',
 					css:{
 						height: frames.num*frames.height,
 						width: frames.width,
@@ -74,6 +75,7 @@
 				// exposing only one frame at a time.
 
 				var animationHolder = $('<div class="shutterAnimationHolder">',{
+					className: 'shutterAnimationHolder',
 					css:{
 						width:animation.width,
 						height:animation.height
