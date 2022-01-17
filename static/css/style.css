@@ -66,6 +66,10 @@ h3{
   text-align: center;
 }
 
+h3.top {
+  padding-top: 1rem;
+}
+
  .bubble {
    width: 100%;
  }
