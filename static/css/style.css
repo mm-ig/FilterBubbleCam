@@ -21,10 +21,6 @@ html {
   align-items: center;
 }
 
-h2.intro {
-  text-align: center;
-}
-
 .intro{
   color: #333333;
   text-align: center;
@@ -53,11 +49,22 @@ p.intro{
   padding: 2rem 0 1rem 1rem;
 }
 
-.end{
+.end {
   font-size: 1.5rem;
   color: #333333;
   text-align: center;
   padding-top: 1rem;
+}
+
+.intro_box h2 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+.intro_box li {
+  font-size: 1.5rem;
+  color: #333333;
+  text-align: left;
+  margin-left: 3rem;
 }
 
 #endimg{
@@ -150,9 +157,13 @@ ol {
 li {
     font-size: 1.8rem;
     margin-bottom: 1rem;
-    padding-left: 10px;
     position: relative;
 }
+
+section ul,.intro_box ul{
+    margin-left: 3rem;
+}
+
 
 .no{
     padding: 0 0.5rem 0 0.5rem;
@@ -161,7 +172,6 @@ li {
 
 ul {
   font-size: 1rem;
-  margin-left: 40px;
 }
 
 div p{
