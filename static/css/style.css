@@ -67,10 +67,15 @@ p.intro{
   margin-left: 3rem;
 }
 
+#introimg{
+  width: 40%;
+  display: block;
+  margin: auto;
+}
+
 #endimg{
   width: 50rem;
-  text-align: center;
-
+  align-items: center;
 }
 
 .home{
