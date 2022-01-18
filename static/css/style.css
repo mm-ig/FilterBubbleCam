@@ -21,9 +21,31 @@ html {
   align-items: center;
 }
 
+h2.intro {
+  text-align: center;
+}
+
 .intro{
   color: #333333;
   text-align: center;
+}
+p.intro{
+  margin-top: 1px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro_box {
+  color: #333333;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative;
+  word-break: break-all;
+  border: solid 1px #bbd929;
+  border-radius: 3rem;
 }
 
 .msg{
@@ -41,6 +63,7 @@ html {
 #endimg{
   width: 50rem;
   text-align: center;
+
 }
 
 .home{
